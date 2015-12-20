@@ -1,0 +1,28 @@
+.light-box{
+	max-height: 400px;
+	background: #fff;
+	margin: auto;
+	display: none;
+	outline: 2000px solid rgba(0,0,0,0.6);
+	position: relative;
+	top: 50%;
+	z-index: 9999;
+	padding: 15px;
+	overflow: auto;
+	&:target{
+		display: block;
+	}
+}
+.close{
+	position: fixed;
+	top: 2%;
+	right: 2%;
+	z-index: 99999;
+	color: #fff;
+	text-shadow:none;
+	opacity: .5;
+	&:hover{
+		color:#fff;
+		opacity: 1;
+	}
+}

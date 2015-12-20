@@ -27,4 +27,33 @@ body {
 .navbar-default {
   background: rgba(255, 255, 255, 0.6); }
 
+.nav > li > a {
+  font-size: 18px; }
+
+.light-box {
+  max-height: 400px;
+  background: #fff;
+  margin: auto;
+  display: none;
+  outline: 2000px solid rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 50%;
+  z-index: 9999;
+  padding: 15px;
+  overflow: auto; }
+  .light-box:target {
+    display: block; }
+
+.close {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  z-index: 99999;
+  color: #fff;
+  text-shadow: none;
+  opacity: .5; }
+  .close:hover {
+    color: #fff;
+    opacity: 1; }
+
 /*# sourceMappingURL=main.css.map */
